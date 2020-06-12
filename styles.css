@@ -25,7 +25,7 @@ main {
 .container {
     margin-top: 300px;
     display: grid;
-    grid-template-columns: 700px;
+    grid-template-columns: 70vh;
     /* border: 2px red solid; */
     background-color: #191919;
     justify-items: center;
@@ -71,4 +71,12 @@ main h2 {
 
 .aaa:hover {
     color: white;
+}
+
+@media only screen and (max-width: 650px) {
+    .container {
+        font-size: 13px;
+        display: grid;
+        justify-content: center;
+    }
 }
