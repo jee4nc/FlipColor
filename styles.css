@@ -1,26 +1,34 @@
 .nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    -webkit-box-shadow: -14px 17px 28px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -14px 17px 28px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: -14px 17px 28px -9px rgba(0, 0, 0, 0.75);
 }
 
 .nav h4 {
-    font-size: 1.3em;
+    font-size: 1.6em;
     justify-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+
 }
 
 .nav-links {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-size: 1.2em;
+    font-size: 1.4em;
     text-decoration: none;
+    align-items: center;
     list-style: none;
-
 }
 
 .nav-links li a {
-    color: black;
+    color: whitesmoke;
     font-weight: bold;
 }
+
 
 main {
     display: grid;
@@ -44,4 +52,37 @@ main h2 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
+}
+
+.btn-hero {
+    background-color: white;
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-hero:hover {
+    background-color: #191919;
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+}
+
+.nav {
+    background-color: #191919;
+    width: 100%;
+    border-radius: 15px;
+    color: white;
+}
+
+
+.aaa {
+    text-decoration: none;
+}
+
+.aaa:hover {
+    color: white;
 }
