@@ -34,6 +34,13 @@ main {
     padding: 10px;
 }
 
+.container p {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 550;
+}
+
 main h2 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
