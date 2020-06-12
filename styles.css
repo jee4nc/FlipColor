@@ -1,6 +1,6 @@
 .nav {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     -webkit-box-shadow: -14px 17px 28px -9px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -14px 17px 28px -9px rgba(0, 0, 0, 0.75);
     box-shadow: -14px 17px 28px -9px rgba(0, 0, 0, 0.75);
@@ -13,20 +13,6 @@
     font-weight: bold;
 
 
-}
-
-.nav-links {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    font-size: 1.4em;
-    text-decoration: none;
-    align-items: center;
-    list-style: none;
-}
-
-.nav-links li a {
-    color: whitesmoke;
-    font-weight: bold;
 }
 
 
